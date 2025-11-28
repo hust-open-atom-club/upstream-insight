@@ -1,0 +1,16 @@
+{
+  "name": "qemu",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --no-open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.9.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.24"
+  }
+}
